@@ -1,0 +1,50 @@
+.filters {
+  width: 240px;
+  padding-right: 32px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.category {
+  margin-bottom: 16px;
+}
+
+.categoryButton {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.options {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 24px;
+  }
+}

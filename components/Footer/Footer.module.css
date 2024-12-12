@@ -1,0 +1,117 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 48px 0 24px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.newsletter h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.newsletter p {
+  color: #999;
+  margin-bottom: 16px;
+}
+
+.subscribeForm {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.subscribeForm input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #fff;
+}
+
+.subscribeForm button {
+  padding: 12px 24px;
+  background: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.column h4 {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.column ul {
+  list-style: none;
+}
+
+.column ul li {
+  margin-bottom: 8px;
+}
+
+.column ul li a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.social a {
+  color: #999;
+  text-decoration: none;
+}
+
+.paymentTitle {
+  margin-top: 32px;
+}
+
+.paymentMethods {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: #999;
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  padding-top: 24px;
+  border-top: 1px solid #333;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .subscribeForm {
+    flex-direction: column;
+  }
+}
